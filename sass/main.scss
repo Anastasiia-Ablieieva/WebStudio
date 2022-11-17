@@ -1,13 +1,13 @@
-@import "./base/reset";
-// @import "./base/common";
-
 @import "./utils/variables";
 @import "./utils/hidden";
 
+@import "./base/common";
+@import "./base/reset";
+
 @import "./components/btn";
 @import "./components/logo";
-@import "./components/social";
 @import "./components/modal";
+@import "./components/social";
 
 @import "./layouts/header";
 @import "./layouts/hero";
@@ -16,5 +16,5 @@
 @import "./layouts/peoples";
 @import "./layouts/clients";
 @import "./layouts/footer";
-@import "./layouts/portfolio";
 @import "./layouts/filter";
+@import "./layouts/portfolio";
