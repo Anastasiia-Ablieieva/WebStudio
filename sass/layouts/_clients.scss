@@ -1,10 +1,19 @@
 .clients-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
 
   &__item {
-    width: calc((100% - 150px) / 6);
+    width: calc((100% - 30px) / 2);
     height: 92px;
+
+    @include tablet {
+      width: calc((100% - 60px) / 3);
+    }
+
+    @include desktop {
+      width: calc((100% - 150px) / 6);
+    }
   }
 
   &__link {
@@ -25,7 +34,7 @@
   }
 
   &__icon {
-    width: 106px;
+    width: 100px;
     height: 60px;
   }
 }

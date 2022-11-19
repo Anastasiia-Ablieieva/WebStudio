@@ -12,16 +12,26 @@
 }
 
 /* MAIN NAVIGATION */
+.mob-menu-open {
+}
 
+.buttone-menu {
+  background-color: transparent;
+  border: none;
+}
 .main-nav {
+  position: relative;
+
   display: flex;
+  justify-content: space-between;
   align-items: center;
+  height: 60px;
 }
 
 /* SITE NAVIGATION */
 
 .site-nav {
-  display: flex;
+  display: none;
   margin-left: 92px;
   gap: 50px;
 }
@@ -67,7 +77,7 @@
 /* CONTACTS */
 
 .contacts {
-  display: flex;
+  display: none;
   margin-left: auto;
   gap: 50px;
   text-decoration: none;

@@ -33,4 +33,9 @@
   --checkbox-icon-color: #ffffff;
   --input-text-color: #afb1b8;
   --timing-function: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --hero-gradient: linear-gradient(
+    to right,
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)
+  );
 }
