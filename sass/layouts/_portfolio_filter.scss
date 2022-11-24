@@ -1,8 +1,17 @@
 .portfolio-filter {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: flex-start;
   gap: 8px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
+
+  @include tablet {
+    justify-content: center;
+  }
+
+  @include desktop {
+    justify-content: center;
+  }
 
   &__btn {
     padding: 6px 22px;

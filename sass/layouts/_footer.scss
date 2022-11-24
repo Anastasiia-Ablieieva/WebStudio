@@ -103,11 +103,8 @@
   }
 
   &__form {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    flex-direction: column;
     align-items: center;
+    text-align: center;
 
     @include desktop {
       flex-direction: row;
@@ -116,10 +113,12 @@
   }
 
   &__field {
-    width: 450px;
+    width: 100%;
+    max-width: 450px;
     height: 50px;
 
     padding: 15px 16px;
+    margin-bottom: 20px;
 
     outline: transparent;
     background-color: transparent;
