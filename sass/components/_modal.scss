@@ -17,10 +17,6 @@
   transform: translate(-50%, -50%) scale(1);
   transition: transform var(--timing-function);
 
-  width: 95%;
-  max-width: 450px;
-  height: 95%;
-  max-height: 609px;
   padding: 40px;
 
   background: var(--bacground-color);
@@ -28,7 +24,13 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 
-  overflow: scroll;
+  @media screen and (max-width: 1199px) {
+    width: 95%;
+    max-width: 450px;
+    height: 95%;
+    max-height: 609px;
+    overflow: scroll;
+  }
 
   @media screen and (min-width: 1200px) {
     min-width: 528px;
